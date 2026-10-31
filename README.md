@@ -20,13 +20,13 @@ The synthetic graphs use a fixed random seed (**2026**). Email-Eu-core has **642
 
 ## Files
 
-- `notebooks/M2_Exploratory_Data_Analysis.ipynb` — EDA notebook with numerical outputs; rerun locally to regenerate its plots.
+- `notebooks/M2_Exploratory_Data_Analysis.ipynb` — executed EDA notebook with four embedded figures and numerical results.
 - `run_m2.py`, `swsn_m2/` — data download, analysis, plots and PDF report generator.
-- `reports/M2_EDA_Report.md` — English written analysis of the results.
+- `reports/M2_EDA_Report.pdf` — two-page English PDF report with EDA findings and graphs.
 - `results/metrics_from_team_run.csv` — metrics from our run using the real SNAP datasets.
 - `requirements.txt` — Python dependencies.
 
-The final **two-page PDF report** is produced locally at `reports/M2_EDA_Report_FINAL.pdf`. The submitted PDF is stored separately from this source repository.
+The repository includes a **two-page PDF report**. Re-running the Python pipeline also generates a fresh PDF at `reports/M2_EDA_Report_FINAL.pdf`.
 
 ## How to run
 
