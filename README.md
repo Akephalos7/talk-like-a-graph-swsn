@@ -20,11 +20,11 @@ The email source graph includes **642 self-loops**, preserved during M2 data ana
 
 ## Repository contents
 
-- `notebooks/M2_Exploratory_Data_Analysis.ipynb` — executed notebook with real SNAP analysis results; figures can be regenerated locally.
+- `notebooks/M2_Exploratory_Data_Analysis.ipynb` — executed notebook with real SNAP numerical results. Image outputs were removed to keep GitHub upload compact; rerun to recreate figures.
 - `notebooks/M2_Results_Review.ipynb` — additional result review and figures.
-- `reports/M2_EDA_Report_REVISED.pdf` — final 2-page English exploratory analysis report.
+- `reports/M2_EDA_Report.md` — verified analysis summary and reproducible results; the final 2-page PDF is submitted separately and can be regenerated locally.
 - `swsn_m2/` and `run_m2.py` — data ingestion, NetworkX analysis, plotting, sampling, report generator.
-- `figures/` and `results/` — selected observed plots and M2 summary metrics, included as examples; they do not substitute for recomputation.
+- `results/` — metrics from the student team's real-data run. Plots are generated on demand in `outputs/real/figures/` and are not included in this source repository.
 - `data/README.md` — raw data sources and notes (original SNAP datasets are **not redistributed**).
 - `tests/` — reproducibility and graph-semantic checks.
 
@@ -67,7 +67,7 @@ To run unit tests:
 
 The EDA examines degree distributions (empirical complementary CDF), graph density, connected or weakly connected components, sampled undirected-projection clustering and Email-Eu-core department communication. Fixed-seed induced subgraphs with 12, 25 and 50 nodes prepare later LLM experiments. Sampling favors local neighborhoods and can distort global topology; later milestones should check multiple seeds and graph sizes.
 
-Raw SNAP files, Python environments, local machine metadata, checkpoints and generated caches are intentionally omitted from the GitHub upload. Reproduction is via script and official Stanford sources.
+Raw SNAP files, Python environments, local machine metadata, checkpoints and generated caches are intentionally omitted from the GitHub upload. Reproduction is via script and official Stanford sources. The submission-ready revised PDF remains in the student team's local deliverables.
 
 ## References
 
