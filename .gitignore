@@ -1,0 +1,24 @@
+# Local Python and Jupyter files
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env
+.env.*
+
+# Source datasets are downloaded from Stanford; do not redistribute
+data/raw/
+*.gz
+
+# Generated output (keep the curated report/figures that are tracked)
+outputs/
+reports/M2_EDA_Report_FINAL.pdf
+reports/M2_EDA_Report_DEMO.pdf
+
+# Local caches / miscellaneous
+.pytest_cache/
+.DS_Store
+Thumbs.db
