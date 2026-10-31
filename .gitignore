@@ -1,24 +1,23 @@
-# Local Python and Jupyter files
+# Python environments and caches
 .venv/
 venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.pytest_cache/
 .vscode/
 .idea/
-.env
-.env.*
 
-# Source datasets are downloaded from Stanford; do not redistribute
+# Downloaded SNAP data
 data/raw/
 *.gz
 
-# Generated output (keep the curated report/figures that are tracked)
+# Generated outputs (except reports committed explicitly)
 outputs/
-reports/M2_EDA_Report_FINAL.pdf
 reports/M2_EDA_Report_DEMO.pdf
 
-# Local caches / miscellaneous
-.pytest_cache/
+# Local files
+.env
+.env.*
 .DS_Store
 Thumbs.db
