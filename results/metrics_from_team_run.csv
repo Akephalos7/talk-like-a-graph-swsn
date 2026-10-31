@@ -1,0 +1,6 @@
+dataset,nodes,edges,density,mean_total_degree,weak_or_connected_components,self_loops,type
+Facebook (SNAP),4039,88234,0.01082,43.691013,1,0,Undirected
+Email-Eu-core (SNAP),1005,25571,0.025342,50.887562,20,642,Directed
+ER synthetic (n=300),300,1613,0.035964,10.753333,1,0,Undirected
+BA synthetic (n=300),300,891,0.019866,5.94,1,0,Undirected
+SBM synthetic (n=300),300,2290,0.051059,15.266667,1,0,Undirected
