@@ -25,3 +25,6 @@ python -m pip install "transformers>=4.37,<5" torch
 python m34.py --mode llm --snap --limit 24
 ```
 Use a CUDA-enabled PyTorch build if running on an NVIDIA GPU. Timing will vary by hardware and environment.
+
+### Direction-specific token costs
+For the 10 Facebook questions, mean adjacency input length was 1437.4 tokens and compact 836.8 (41.8% fewer). For the 14 Email-Eu-core questions, adjacency averaged 1017.86 and compact 1024.0 (0.6% more). Directed arcs cannot be removed as mirrored undirected edges; the added compact-format instruction can contribute overhead. The aggregate reduction is therefore sample-composition dependent.
