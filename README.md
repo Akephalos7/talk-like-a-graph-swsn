@@ -68,3 +68,11 @@ To save plots in the Jupyter notebook itself after the datasets have been downlo
 1. Fatemi et al. (ICLR 2024), [*Talk Like a Graph: Encoding Graphs for Large Language Models*](https://arxiv.org/abs/2310.04560).
 2. McAuley & Leskovec (NeurIPS 2012), [*Learning to Discover Social Circles in Ego Networks*](https://snap.stanford.edu/data/ego-Facebook.html).
 3. Yin et al. (KDD 2017), [*Local Higher-order Graph Clustering*](https://snap.stanford.edu/data/email-Eu-core.html).
+
+## Milestones 3–4 (updated 19 November 2026)
+
+- [Tools, preprocessing and experiment instructions](docs/M34_README.md)
+- [Real SNAP / Qwen results and limitations](results/m34/LLM_Results.md)
+- [Project management](docs/M34_Kanban.md)
+
+The initial real LLM experiment is completed: 24 paired questions per encoding, 96 predictions; compact adjacency reduces mean prompt tokens by 20.68% relative to standard adjacency. See the results note for accuracy and latency caveats.

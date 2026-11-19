@@ -1,12 +1,12 @@
-# M3–M4 Kanban — 19 November 2026
-Proposed owners, subject to team confirmation. Done means artifact produced, not individual completion confirmed.
+# M3–M4 Kanban — updated 19 November 2026
 
-| Task | Proposed owner | Target | Status |
+Proposed allocation; actual user-run evidence is recorded separately. M3 official deadline: 16 Nov; M4: 30 Nov. No claim of timely submission.
+
+| Task | Proposed owner | Target | Status / evidence |
 |---|---|---|---|
-| Requirements and tool notebook | Ozan | 19 Nov | Done |
-| Normalization and encodings | Baris | 19 Nov | Done |
-| Synthetic experiment and metrics | Baris | 19 Nov | Done |
-| Baseline comparison and presentation | Ozan | 19 Nov | Done |
-| Download SNAP and Qwen; run paired inference | Baris | 23 Nov | To do |
-| Verify results and update conclusions | Ozan | 25 Nov | To do |
-| Review, rehearse, submit | Both | 30 Nov | To do |
+| Tool selection and introductory notebook | Ozan | 19 Nov | Done |
+| Preprocessing and four encodings | Baris | 19 Nov | Done; real SNAP run completed |
+| Synthetic diagnostic and cost measurement | Baris | 19 Nov | Done |
+| Qwen inference on real SNAP data | Baris | 23 Nov | Done 19 Nov; executed by Ozan, 96 records |
+| Verify LLM results and update interpretation | Ozan | 25 Nov | Done 19 Nov; raw and summary CSVs checked |
+| Confirm allocation, rehearse and submit | Both | 30 Nov | To do |
